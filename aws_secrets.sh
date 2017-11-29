@@ -1,5 +1,0 @@
-export AWS_ACCESS_KEY=AKIAITI7Y4I4VGWKI5IA
-export AWS_SECRET_KEY=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
-export AWS_KEYPAIR_NAME=id_rsa
-export AWS_KEYPATH=$HOME/id_rsa
-export AWS_SECURITYGROUP=sandbox_security_group
