@@ -1,0 +1,34 @@
+{
+    "region": "us-east-1",
+    "availability_zone": "a",
+    "ssh_username": "ubuntu",
+    "ec2s": {
+        "seed0": {
+            "ami_id": "ami-f4cc1de2",
+            "instance_type": "t2.micro",
+            "tags": {
+                "Name": "seed0",
+                "Role": "swarm_seed",
+                "ServiceType": "swarm_seed"
+            }
+        },
+        "manager0": {
+            "ami_id": "ami-f4cc1de2",
+            "instance_type": "t2.micro",
+            "tags": {
+                "Name": "manager0",
+                "Role": "swarm_managers",
+                "ServiceType": "swarm_managers"
+            }
+        },
+        "manager1": {
+            "ami_id": "ami-f4cc1de2",
+            "instance_type": "t2.micro",
+            "tags": {
+                "Name": "manager1",
+                "Role": "swarm_managers",
+                "ServiceType": "swarm_managers"
+            }
+        }
+    }
+}

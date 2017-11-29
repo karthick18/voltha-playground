@@ -1,0 +1,5 @@
+---
+- name: Deploy and start voltha in swarm cluster
+  become: yes
+  command: docker stack deploy -c /vagrant/voltha-stack-3-masters.yml voltha
+  changed_when: false

@@ -1,0 +1,11 @@
+- hosts: swarm_seed
+  roles:
+    - swarm-seed
+
+- hosts: swarm_managers
+  roles:
+    - swarm-manager
+
+- hosts: swarm_seed
+  roles:
+    - voltha
